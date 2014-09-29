@@ -1,0 +1,25 @@
+-Agregar atributos a las tablas del DER
+-Ver Casos de uso y especificarlos
+-Diagramar boceto de "panel de control" para el operador
+-Aclarar en la documentacion el uso de la API de google para el calculo de distancias y tarifas
+-Definir los circuitos de trabajo en las reglas de negocio
+-Cambiar el nombre de la tabla planilla a Rendicion/Liquidacion
+-Definir el uso de alertas 
+-Fortalecer las herramientas via web
+
+
+Sugerencias:
+-¿Con Cuanto tiempo de anticipacion, como minimo, debe realizarse una reserva via web?
+
+-¿Bandeja de entrada para las alertas(confirmar reserva web, asignar reserva a vencer, etc.), onda notificaciones de face?
+
+- El usuario, cuando se reserva via web, puede usar la API de google maps para indicar 
+de donde y hasta donde va y que tambien se pueda calcular el valor del viaje 
+
+- ¿Cuando se registra un usuario por web, debe ser ya cliente de la agencia o podemos darle un alta de cliente tambien 
+al mismo tiempo que se registra? 
+
+- ¿Si el chofer carga combustible, tiene que cargar con dinero de su bolsillo (y que despues se lo devuelva la agencia) 
+o tener un dinero de la agencia para ese fin?
+
+- ¿El sistema deberia registrar con cuanto cambio comienza a trabajar el chofer?
