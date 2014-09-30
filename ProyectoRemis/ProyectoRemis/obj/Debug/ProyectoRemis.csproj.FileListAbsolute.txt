@@ -1,0 +1,5 @@
+C:\Users\Martín_2\Documents\GitHub\ProyectoRemis\ProyectoRemis\ProyectoRemis\bin\ProyectoRemis.dll
+C:\Users\Martín_2\Documents\GitHub\ProyectoRemis\ProyectoRemis\ProyectoRemis\bin\ProyectoRemis.pdb
+C:\Users\Martín_2\Documents\GitHub\ProyectoRemis\ProyectoRemis\ProyectoRemis\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Martín_2\Documents\GitHub\ProyectoRemis\ProyectoRemis\ProyectoRemis\obj\Debug\ProyectoRemis.dll
+C:\Users\Martín_2\Documents\GitHub\ProyectoRemis\ProyectoRemis\ProyectoRemis\obj\Debug\ProyectoRemis.pdb
