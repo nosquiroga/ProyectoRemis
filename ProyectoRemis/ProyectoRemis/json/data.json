@@ -1,0 +1,24 @@
+{
+   "destination_addresses" : [
+      "Tte. Coronel Luis María Campos 2725, Sarandí, Buenos Aires, Argentina"
+   ],
+   "origin_addresses" : [ "Cangallo 5628, Wilde, Buenos Aires, Argentina" ],
+   "rows" : [
+      {
+         "elements" : [
+            {
+               "distance" : {
+                  "text" : "5.5 km",
+                  "value" : 5503
+               },
+               "duration" : {
+                  "text" : "10 min",
+                  "value" : 627
+               },
+               "status" : "OK"
+            }
+         ]
+      }
+   ],
+   "status" : "OK"
+}

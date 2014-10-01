@@ -383,7 +383,12 @@ footer a:hover {
 }
   
 table { 
-  margin: 10px 0 30px 0;
+  margin: 10px 5px 30px 5px;
+}
+
+.mapTable { 
+  margin: 10px 10px 30px 10px;
+  padding: 7px 7px;
 }
 
 table tr th, table tr td { 
