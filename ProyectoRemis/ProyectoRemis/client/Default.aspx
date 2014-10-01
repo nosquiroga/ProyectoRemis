@@ -3,7 +3,7 @@
 
 
 <asp:Content ContentPlaceHolderId="ContentPlaceHolder2" runat="server">
-  <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
   <!-- modernizr enables HTML5 elements and feature detects -->
   <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
     <div id="site_content">

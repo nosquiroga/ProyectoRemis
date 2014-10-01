@@ -2,7 +2,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>9.0.21022</ProductVersion>
+    <ProductVersion>9.0.30729</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{795A030D-305F-4797-A2AA-CA26A31E7470}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
@@ -53,75 +53,76 @@
     <Reference Include="System.Web.Mobile" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="another_page.html" />
-    <Content Include="contact.html" />
-    <Content Include="examples.html" />
-    <Content Include="index.aspx" />
-    <Content Include="page.html" />
-    <Content Include="Web.config" />
+    <Content Include="client\another_page.html" />
+    <Content Include="client\contact.html" />
+    <Content Include="client\examples.html" />
+    <Content Include="client\index.aspx" />
+    <Content Include="client\page.html" />
+    <Content Include="client\Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Main.Master.cs">
+    <Compile Include="client\Main.Master.cs">
       <DependentUpon>Main.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Main.Master.designer.cs">
+    <Compile Include="client\Main.Master.designer.cs">
       <DependentUpon>Main.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Default.aspx.cs">
+    <Compile Include="client\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Default.aspx.designer.cs">
+    <Compile Include="client\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Consulta.aspx.cs">
+    <Compile Include="client\Consulta.aspx.cs">
       <DependentUpon>Consulta.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Consulta.aspx.designer.cs">
+    <Compile Include="client\Consulta.aspx.designer.cs">
       <DependentUpon>Consulta.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="bin\ProyectoRemis.dll" />
     <Content Include="bin\ProyectoRemis.pdb" />
-    <Content Include="css\autocompleteStyle.css" />
-    <Content Include="css\style.css" />
-    <Content Include="documentation\index.html" />
-    <Content Include="fonts\News Cycle SIL OFL Font License 1.1.txt" />
-    <Content Include="images\1.jpg" />
-    <Content Include="images\2.jpg" />
-    <Content Include="images\3.jpg" />
-    <Content Include="images\4.jpg" />
-    <Content Include="images\5.jpg" />
-    <Content Include="images\6.jpg" />
-    <Content Include="images\arrows-black.png" />
-    <Content Include="images\bullet.png" />
-    <Content Include="images\graphic.jpg" />
-    <Content Include="images\pattern.png" />
-    <Content Include="js\autocomplete.js" />
-    <Content Include="js\jquery.easing-sooper.js" />
-    <Content Include="js\jquery.js" />
-    <Content Include="js\jquery.kwicks-1.5.1.js" />
-    <Content Include="js\jquery.sooperfish.js" />
-    <Content Include="js\loadPins.js" />
-    <Content Include="js\mapsInitializer.js" />
-    <Content Include="js\modernizr-1.5.min.js" />
-    <Content Include="Main.Master" />
-    <Content Include="Default.aspx" />
-    <Content Include="Consulta.aspx" />
+    <Content Include="client\css\autocompleteStyle.css" />
+    <Content Include="client\css\style.css" />
+    <Content Include="client\documentation\index.html" />
+    <Content Include="client\fonts\News Cycle SIL OFL Font License 1.1.txt" />
+    <Content Include="client\images\1.jpg" />
+    <Content Include="client\images\2.jpg" />
+    <Content Include="client\images\3.jpg" />
+    <Content Include="client\images\4.jpg" />
+    <Content Include="client\images\5.jpg" />
+    <Content Include="client\images\6.jpg" />
+    <Content Include="client\images\arrows-black.png" />
+    <Content Include="client\images\bullet.png" />
+    <Content Include="client\images\graphic.jpg" />
+    <Content Include="client\images\pattern.png" />
+    <Content Include="client\js\autocomplete.js" />
+    <Content Include="client\js\jquery.easing-sooper.js" />
+    <Content Include="client\js\jquery.js" />
+    <Content Include="client\js\jquery.kwicks-1.5.1.js" />
+    <Content Include="client\js\jquery.sooperfish.js" />
+    <Content Include="client\js\loadPins.js" />
+    <Content Include="client\js\mapsInitializer.js" />
+    <Content Include="client\js\modernizr-1.5.min.js" />
+    <Content Include="client\Main.Master" />
+    <Content Include="client\Default.aspx" />
+    <Content Include="client\Consulta.aspx" />
     <Content Include="obj\Debug\ProyectoRemis.csproj.FileListAbsolute.txt" />
     <Content Include="obj\Debug\ProyectoRemis.dll" />
     <Content Include="obj\Debug\ProyectoRemis.pdb" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="fonts\NewsCycle-Regular.eot" />
-    <None Include="fonts\NewsCycle-Regular.ttf" />
-    <None Include="fonts\YanoneKaffeesatz-Regular.eot" />
-    <None Include="fonts\YanoneKaffeesatz-Regular.ttf" />
-    <None Include="json\data.json" />
+    <None Include="client\fonts\NewsCycle-Regular.eot" />
+    <None Include="client\fonts\NewsCycle-Regular.ttf" />
+    <None Include="client\fonts\YanoneKaffeesatz-Regular.eot" />
+    <None Include="client\fonts\YanoneKaffeesatz-Regular.ttf" />
+    <None Include="client\json\data.json" />
+    <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -147,6 +148,9 @@
           <IISUrl>
           </IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
           <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
         </WebProjectProperties>
       </FlavorProperties>
