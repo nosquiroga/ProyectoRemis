@@ -5,7 +5,7 @@
 //  });
 
 
-$.getJSON('json/data2.json', function(jd) {
+$.getJSON('data2.json', function(jd) {
              console.log("Data");
              console.log(jd.name);
 //             $('#stage').html('<p> Name: ' + jd.name + '</p>');
