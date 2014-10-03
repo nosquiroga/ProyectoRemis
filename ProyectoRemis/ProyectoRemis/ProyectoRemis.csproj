@@ -83,6 +83,13 @@
     <Compile Include="Consulta.aspx.designer.cs">
       <DependentUpon>Consulta.aspx</DependentUpon>
     </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="bin\ProyectoRemis.dll" />
@@ -115,6 +122,7 @@
     <Content Include="obj\Debug\ProyectoRemis.csproj.FileListAbsolute.txt" />
     <Content Include="obj\Debug\ProyectoRemis.dll" />
     <Content Include="obj\Debug\ProyectoRemis.pdb" />
+    <Content Include="login.aspx" />
   </ItemGroup>
   <ItemGroup>
     <None Include="fonts\NewsCycle-Regular.eot" />

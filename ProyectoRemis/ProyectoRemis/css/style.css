@@ -539,6 +539,14 @@ ul#nav li a {
   margin-right: 2px;
 }
 
+
+.loginButton { 
+  font: 170% 'Yanone Kaffeesatz', arial, sans-serif;
+  text-shadow: 1px 1px #fff;
+  text-decoration: none;
+  color: #222;
+}
+
 ul#nav li a:hover, ul#nav li a:focus, ul#nav li.selected a, ul#nav li.selected a:hover, ul#nav li.selected a:focus { 
   color: #B30303;
   text-shadow: none;

@@ -20,7 +20,7 @@
       <div id="logo">
         <div id="logo_text">
           <!-- class="logo_colour", allows you to change the colour of the text -->
-          <h1><a href="index.html">Remises <span class="logo_colour">3.0</span></a></h1>
+          <h1><a href="Default.aspx">Remises <span class="logo_colour">3.0</span></a></h1>
           <h2>Tu remis. Más simple.</h2>
         </div>
       </div>
@@ -28,8 +28,8 @@
         <ul class="sf-menu" id="nav">
           <li class="selected"><a href="Default.aspx">Home</a></li>
           <li><a href="Consulta.aspx">Consultar precio</a></li>
-          <li><a href="page.html">Solicitar auto</a></li>
-          <li><a href="#">Example Drop Down</a>
+          <li><a href="Default.aspx">Solicitar auto</a></li>
+          <%--<li><a href="#">Example Drop Down</a>
             <ul>
               <li><a href="#">Drop Down One</a></li>
               <li><a href="#">Drop Down Two</a>
@@ -45,10 +45,10 @@
               <li><a href="#">Drop Down Four</a></li>
               <li><a href="#">Drop Down Five</a></li>
             </ul>
-          </li>
+          </li>--%>
           <li><a href="another_page.html">Another Page</a></li>
           
-          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="contact.html" align="right">Contact Us</a></li>
         </ul>
       </nav>
     </header>
@@ -65,22 +65,10 @@
                 <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
         
         </asp:ContentPlaceHolder>
-<%--      <div id="sidebar_container">
-        <div class="sidebar">
-          <h3>Latest News</h3>
-          <h4>New Website Launched</h4>
-          <h5>January 1st, 2012</h5>
-          <p>2012 sees the redesign of our website. Take a look around and let us know what you think.<br /><a href="#">Read more</a></p>
-          <h4>20% Discount</h4>
-          <h5>March 1st, 2012</h5>
-          <p>We are offering a 20% discount to all new customers.<br /><a href="#">Read more</a></p>
-        </div>
-      </div>--%>
-
       </div>
     </div>
     <footer>
-      <p>Copyright &copy; CSS3_seascape_two | <a href="http://www.css3templates.co.uk">design from css3templates.co.uk</a></p>
+      <p>Copyright Isusi, Mayo, Quiroga</p>
     </footer>
   </div>
   <p>&nbsp;</p>
