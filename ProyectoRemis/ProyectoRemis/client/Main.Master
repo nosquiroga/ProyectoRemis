@@ -28,51 +28,62 @@
         <ul class="sf-menu" id="nav">
           <li class="selected"><a href="Default.aspx">Home</a></li>
           <li><a href="Consulta.aspx">Consultar precio</a></li>
-          <li><a href="Default.aspx">Solicitar auto</a></li>
-          <%--<li><a href="#">Example Drop Down</a>
-            <ul>
-              <li><a href="#">Drop Down One</a></li>
-              <li><a href="#">Drop Down Two</a>
-                <ul>
-                  <li><a href="#">Sub Drop Down One</a></li>
-                  <li><a href="#">Sub Drop Down Two</a></li>
-                  <li><a href="#">Sub Drop Down Three</a></li>
-                  <li><a href="#">Sub Drop Down Four</a></li>
-                  <li><a href="#">Sub Drop Down Five</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down Three</a></li>
-              <li><a href="#">Drop Down Four</a></li>
-              <li><a href="#">Drop Down Five</a></li>
-            </ul>
-          </li>--%>
-          <li><a href="another_page.html">Another Page</a></li>
+          <li><a href="Default.aspx">Solicitar auto</a></li>          
+          <%
+              Boolean log = false;
+              String userName = "";
+              try
+              {
+                  log = (Boolean)Session["log"];
+                  userName = (String)Session["userName"];
+              }
+              catch (Exception ex) { }
+                  if (log)
+                  {
+              
+              
+          %>      
+                <li><a href="#"><%=userName %></a>
+                    <ul>
+                      <li><a href="#">Registro de viajes</a></li>
+                      <li><a href="#">Datos personales</a>
+<%--                        <ul>
+                          <li><a href="#">Sub Drop Down One</a></li>
+                          <li><a href="#">Sub Drop Down Two</a></li>
+                          <li><a href="#">Sub Drop Down Three</a></li>
+                          <li><a href="#">Sub Drop Down Four</a></li>
+                          <li><a href="#">Sub Drop Down Five</a></li>
+                        </ul>--%>
+                      </li>
+                      <li><a href="#">Cerrar sesión</a></li>
+                    </ul>
+                 </li>
+          <%  
+              }
+                  else
+                  {
+          %>
+                 <li><a href="login.aspx">Iniciar sesión</a></li>
+                 <li><a href="Default.aspx" align="right">Nuevo usuario</a></li>
+          <%
+              }
+          %>
+
           
-          <li><a href="contact.html" align="right">Contact Us</a></li>
+
         </ul>
       </nav>
     </header>
     <div id="site_content">
-<%--      <ul id="images">
-        <li><img src="images/1.jpg" width="600" height="300" alt="seascape_one" /></li>
-        <li><img src="images/2.jpg" width="600" height="300" alt="seascape_two" /></li>
-        <li><img src="images/3.jpg" width="600" height="300" alt="seascape_three" /></li>
-        <li><img src="images/4.jpg" width="600" height="300" alt="seascape_four" /></li>
-        <li><img src="images/5.jpg" width="600" height="300" alt="seascape_five" /></li>
-        <li><img src="images/6.jpg" width="600" height="300" alt="seascape_seascape" /></li>
-      </ul>--%>
-            <div class="content">
-                <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
-        
-        </asp:ContentPlaceHolder>
-      </div>
+        <div class="content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server"></asp:ContentPlaceHolder>
+        </div>
     </div>
     <footer>
       <p>Copyright Isusi, Mayo, Quiroga</p>
     </footer>
   </div>
   <p>&nbsp;</p>
-  <!-- javascript at the bottom for fast page loading -->
   <script type="text/javascript" src="js/jquery.js"></script>
   <script type="text/javascript" src="js/jquery.easing-sooper.js"></script>
   <script type="text/javascript" src="js/jquery.sooperfish.js"></script>
